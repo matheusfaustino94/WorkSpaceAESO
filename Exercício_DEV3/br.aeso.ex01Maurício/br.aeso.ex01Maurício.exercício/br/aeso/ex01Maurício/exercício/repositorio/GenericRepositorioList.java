@@ -7,7 +7,7 @@ import br.aeso.ex01Maurício.exercício.exceptions.projetoException;
 import br.aeso.ex01Maurício.exercício.modelo.ProjectID;
 
 public class GenericRepositorioList<T extends ProjectID> implements
-		IRepositorio<T> {
+		IRepositorio<T,String> {
 
 	List<T> entities;
 

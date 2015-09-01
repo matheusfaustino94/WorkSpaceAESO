@@ -1,0 +1,64 @@
+package br.aeso.rodrigo.FilaDinamica;
+
+import java.util.ArrayList;
+
+public class Fila {
+	
+	int qtd;
+	int inicio;
+	int fim;
+	Object [] fila;
+	
+	public Fila(int tamanho){
+		this.fila = new Object[tamanho];
+		this.qtd = 0;
+		this.inicio = 0;
+		this.fim = 0;
+		
+	}
+	
+	public boolean cheia(){
+		return qtd==fila.length;
+	}
+	
+	public boolean vazia(){
+		return  qtd==0;
+	}
+	
+	public void inserir(Object objeto){
+		if(!cheia()){
+			fila[fim]=objeto;
+			qtd++;
+			fim++;
+			if(fim>=fila.length){
+				fim = fila.length - fim;
+			}
+		}else{
+			System.out.println("A fila está cheia!");
+			}
+	}
+	public void remover(){
+		if(!vazia()){
+			fila[inicio]=null;
+			qtd--;
+			inicio++;
+			if(inicio>=fila.length){
+				inicio = fila.length - inicio;
+			}
+		}else{
+			System.out.println("A fila está vazia!");
+			}
+	}
+	
+	
+	public ArrayList<Object> consultar() {
+		ArrayList<Object> filaR = new ArrayList<Object>();
+		for(int i=0; i<fila.length; i++){
+			if(fila[i] != null){
+			filaR.add(fila[i]);
+			}
+		}
+		return filaR;
+	}
+	
+}

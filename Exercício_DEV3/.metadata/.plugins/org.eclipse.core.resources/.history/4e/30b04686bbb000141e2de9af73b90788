@@ -1,0 +1,22 @@
+package br.aeso.aula03.tarefinha02;
+
+public class Motor {
+	
+	private String Tipo;
+	private int Potência;
+	
+	public String getTipo() {
+		return Tipo;
+	}
+	public void setTipo(String tipo) {
+		Tipo = tipo;
+	}
+	public int getPotência() {
+		return Potência;
+	}
+	public void setPotência(int potência) {
+		Potência = potência;
+	}
+	
+
+}

@@ -139,7 +139,7 @@ public class AtualizarFornecedorPanel extends JPanel {
 				String cidade = cidadeFornecedor.getText();
 				String cep = cepFornecedor.getText();
 
-				Endereço endereco = new Endereço();
+				Endereço endereco = new Endereço(null,null,null,null,null,null,null);
 				endereco.setRua(rua);
 				endereco.setNumero(numero);
 				endereco.setComplemento(complemento);
@@ -147,7 +147,7 @@ public class AtualizarFornecedorPanel extends JPanel {
 				endereco.setCidade(cidade);
 				endereco.setCep(cep);
 
-				Fornecedor fornecedor = new Fornecedor();
+				Fornecedor fornecedor = new Fornecedor(null,null,null);
 				fornecedor.setCpf(cpf);
 				fornecedor.setNome(nome);
 				fornecedor.setBanco(banco);

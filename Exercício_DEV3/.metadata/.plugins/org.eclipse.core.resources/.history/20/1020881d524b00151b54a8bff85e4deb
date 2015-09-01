@@ -1,0 +1,66 @@
+package br.aeso.ex01Maurício.exercício.repositorio;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+import br.aeso.ex01Maurício.exercício.exceptions.projetoException;
+import br.aeso.ex01Maurício.exercício.modelo.Fornecedor;
+import br.aeso.ex01Maurício.exercício.util.JDBCConnection;
+
+public class RepositorioFornecedorJDBC implements IRepositorio<Fornecedor> {
+
+	private Connection conexaoBD;
+
+	public RepositorioFornecedorJDBC() {
+		conexaoBD = JDBCConnection.getConnection();
+	}
+
+	@Override
+	public void cadastrar(Fornecedor entity) throws projetoException {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Fornecedor procurar(Integer id) throws projetoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean remover(Integer id) throws projetoException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void atualizar(Fornecedor entity) throws projetoException {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public ArrayList<Fornecedor> listarEntities() throws projetoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	private boolean existe (String cpf){
+		PreparedStatement prepStatment = null;
+		ResultSet result = null;
+		
+		String sql = "select fornecedor_id from projeto01.fornecedor where cpf = '" + cpf + "'";
+		
+		try {
+			prepStatment = conexaoBD.prepareStatement(sql);
+		} catch (SQLException e) {
+			throw new RuntimeException();
+		}
+		
+		return false;
+	}
+
+}

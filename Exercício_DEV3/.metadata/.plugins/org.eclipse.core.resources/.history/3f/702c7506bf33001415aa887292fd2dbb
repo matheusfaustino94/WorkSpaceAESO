@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+
+public class ex_04 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		int numero;
+		numero = teclado.nextInt();
+		do {
+			System.out.println("Informe o número : ");
+			numero = teclado.nextInt();
+			if(numero != 0){
+				System.out.println("O número informado é: "+numero);	
+			}
+			
+		}while(numero != 0);
+		
+		teclado.close();
+	}
+
+}

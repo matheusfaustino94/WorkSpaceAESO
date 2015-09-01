@@ -7,7 +7,13 @@ public class Fornecedor extends ProjectID {
 	private String cpf;
 	private String banco;
 	private Endereço endereço;
-	
+
+	public Fornecedor(String nome, String cpf, String banco) {
+		this.nome = nome;
+		this.cpf = cpf;
+		this.banco = banco;
+	}
+
 	public String getNome() {
 		return nome;
 	}

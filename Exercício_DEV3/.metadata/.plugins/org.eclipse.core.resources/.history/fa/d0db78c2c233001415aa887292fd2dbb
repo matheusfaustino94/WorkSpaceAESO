@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+
+public class ex_05 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		int numero;
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Informe o número : ");
+		numero = teclado.nextInt();
+		float rt = 1;
+		
+		for (int i=1; i<=numero; i++){
+			rt = rt + (rt*i);
+		}
+		
+		System.out.println("O resultado é: "+rt);
+		
+		teclado.close();
+	} 
+
+}

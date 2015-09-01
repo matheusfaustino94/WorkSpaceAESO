@@ -1,0 +1,87 @@
+package br.aeso.rodrigo.ListaEstatica;
+
+import br.aeso.rodrigo.ListaEstatica.PessoaJaCadastradaException;
+import br.aeso.rodrigo.ListaEstatica.PessoaNaoEncontradaException;
+
+public class TelaPessoa {
+
+	public static void main(String[] args) throws PessoaJaCadastradaException,
+												  PessoaNaoEncontradaException {
+		
+		IRepositorioPessoa repositorio = new RepositorioPessoa();
+
+		Pessoa pessoa1 = new Pessoa("A1",1);
+		Pessoa pessoa2 = new Pessoa("A2",2);
+		Pessoa pessoa3 = new Pessoa("A3",3);
+		Pessoa pessoa4 = new Pessoa("A4",4);
+		Pessoa pessoa5 = new Pessoa("A5",5);
+		Pessoa pessoa6 = new Pessoa("A6",6);
+		Pessoa pessoa7 = new Pessoa("A7",7);
+		Pessoa pessoa8 = new Pessoa("A8",8);
+		Pessoa pessoa9 = new Pessoa("A9",9);
+		Pessoa pessoa10 = new Pessoa("A10",10);
+		Pessoa pessoa11 = new Pessoa("A11",11);
+
+		
+		System.out.println("*** Cadastrando ***\n");
+		
+		repositorio.inserir(pessoa1); 
+		repositorio.inserir(pessoa8);
+		repositorio.inserir(pessoa2);
+		repositorio.inserir(pessoa7);
+		repositorio.inserir(pessoa6);
+		repositorio.excluir(2);
+		repositorio.excluir(7);
+		repositorio.excluir(1);
+		repositorio.inserir(pessoa3);
+		repositorio.inserir(pessoa4);
+		repositorio.inserir(pessoa10);
+		repositorio.inserir(pessoa5);
+		repositorio.inserir(pessoa9);
+		repositorio.inserir(pessoa11);
+	    
+		System.out.println("Pesquisa binária: "+repositorio.PesquisaBinaria(4));
+		try{
+			repositorio.inserir(pessoa1); // cadastrando pessoa1 novamente.
+		}catch (PessoaJaCadastradaException e){
+			System.out.println(e.getMessage() + ": " + pessoa1 + "\n");
+		}
+		
+		System.out.println(repositorio.listar()); // listando todas as pessoas cadastradas.
+		
+		//System.out.println("Encontrado  "+repositorio.PesquisaOrdenada(9));
+		//System.out.println(repositorio.listar());
+		
+		System.out.println(repositorio.listar());
+		//System.out.println("Encontrado? "+repositorio.PesquisaOrdenada("22222222222"));
+		
+		/*
+		try{
+			repositorio.alterar(pessoaAlterar); // alterando pessoa pelo cpf.
+			System.out.println("\nPessoa alterada." + ": " + pessoaAlterar + "\n");
+		}catch (PessoaNaoEncontradaException e){
+			System.out.println("\n" + e.getMessage() + "\n");
+		}
+		
+		try{
+			repositorio.excluir("33333333333"); // excluindo pessoa pelo cpf.
+			System.out.println("Pessoa foi excluída.\n");
+		}catch(PessoaNaoEncontradaException e){
+			System.out.println(e.getMessage()+"\n");
+		}
+		
+		System.out.println(repositorio.listar()); // listando todas as pessoas cadastradas.
+
+		
+			System.out.println();
+			System.out.println("Buscando pessoa: 1");
+			System.out.println(repositorio.buscar("11111111111")); // buscando pessoa pelo cpf.
+			System.out.println("\nBuscando pessoa: 2");
+			System.out.println(repositorio.buscar("22222222222")); // buscando pessoa pelo cpf.
+		
+		
+		System.out.println("\n*** Clientes cadastrados *** ");
+		System.out.println(repositorio.listar()); // listando todas as pessoas cadastradas.
+		*/
+	}
+}

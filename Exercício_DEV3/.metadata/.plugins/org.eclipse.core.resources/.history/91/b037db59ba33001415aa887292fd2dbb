@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+
+public class ex_01 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Informe o número : ");
+		int numero = teclado.nextInt();
+		if (numero>=10){
+			System.out.println("Número maior ou igual a 10 ! ");
+		}else{
+			System.out.println("Número menor que 10 ! ");
+		}
+		
+	}
+
+}

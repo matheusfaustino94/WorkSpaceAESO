@@ -1,0 +1,27 @@
+package br.aeso.rodrigo.FilaDinamica;
+
+public class TesteFila {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Fila filaTeste = new Fila(5);
+		int numero1 = 0;
+		int numero2 = 1;
+		int numero3 = 2;
+		int numero4 = 3;
+		int numero = 69;
+		String nome = "teste";
+		
+		filaTeste.inserir(numero1);
+		filaTeste.inserir(numero2);
+		filaTeste.inserir(numero3);
+		filaTeste.inserir(numero4);
+		filaTeste.inserir(nome);
+		filaTeste.remover();
+		
+		System.out.println(filaTeste.consultar());
+		
+	}
+
+}

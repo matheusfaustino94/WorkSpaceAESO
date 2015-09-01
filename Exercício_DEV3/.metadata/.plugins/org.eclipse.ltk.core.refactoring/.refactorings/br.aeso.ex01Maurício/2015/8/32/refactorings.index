@@ -1,0 +1,36 @@
+1438643937358	Rename source folder 'src'
+1438643988737	Rename source folder 'br.aeso.Exercício01_Maurício.exercício'
+1438643996169	Rename package 'br.aeso.Exercício01_Maurício.exercício.Endereço'
+1438644001114	Rename package 'br.aeso.Exercício01_Maurício.exercício.Fornecedor'
+1438649738039	Rename package 'br.aeso.Ex01_Maurício.exercício.Endereço'
+1438649743716	Move compilation unit
+1438649932434	Move compilation unit
+1438649942084	Rename package 'br.aeso.Ex01_Maurício.exercício.modelo'
+1438649946855	Rename package 'br.aeso.Ex01_Maurício.exercício.Enderel'
+1438649965173	Rename source folder 'br.aeso.Ex01_Maurício.exercício'
+1438649974884	Rename package 'br.aeso.Ex01_Maurício.exercício.Endereço'
+1438649980114	Rename package 'br.aeso.Ex01_Maurício.exercício.Fornecedor'
+1438649998742	Rename package 'br.aeso.ex01Maurício.exercício.Endereço'
+1438650002864	Rename package 'br.aeso.ex01Maurício.exercício.Fornecedor'
+1438650301217	Rename package 'br.aeso.projetoDev1.util'
+1438650740164	Rename package 'br.aeso.ex01Maurício.exercício.endereço'
+1438651124826	Move compilation unit
+1438651128075	Delete element
+1438651672179	Rename package 'br.aeso.ex01Maurício.exercício.exception'
+1438651824397	Move compilation unit
+1438652511545	Rename type 'EstrategyException'
+1438653150180	Move compilation unit
+1438653450674	Delete element
+1438653454077	Move compilation unit
+1438653461730	Move compilation unit
+1438653521860	Delete elements
+1438783320251	Delete elements
+1438783329098	Rename type 'GenericRepositorio'
+1438783378463	Copy compilation unit
+1438783394731	Rename type 'IRepositorio'
+1438783494851	Delete element
+1438783590825	Copy compilation unit
+1438783596616	Delete element
+1438783616161	Delete element
+1438818796396	Rename type 'listarFornecedorPanel'
+1439077610542	Delete element

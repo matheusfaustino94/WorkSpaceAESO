@@ -1,6 +1,4 @@
 package br.aeso.ex01Maurício.exercício.repositorio;
-//teste de gitHub
-//Testando novamente
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -72,7 +70,7 @@ public class RepositorioFornecedorJDBC implements IRepositorio<Fornecedor, Strin
 				String cpf_fornecedor = rSet.getString("cpf");
 				String banco = rSet.getString("banco");
 
-				Fornecedor fornecedorEncontrado = new Fornecedor();
+				Fornecedor fornecedorEncontrado = new Fornecedor(null,null,null);
 				fornecedorEncontrado.setNome(nome);
 				fornecedorEncontrado.setCpf(cpf_fornecedor);
 				fornecedorEncontrado.setBanco(banco);
@@ -119,7 +117,7 @@ public class RepositorioFornecedorJDBC implements IRepositorio<Fornecedor, Strin
 
 	@Override
 	public void atualizar(Fornecedor entity) throws projetoException {
-		String sqlUpdate = "update projeto01.fornecedor set nome = ?, cpf = ?, banco = ?";
+		String sqlUpdate = "update projeto01.fornecedor set nome = ?, cpf = ?, banco = ? where cpf = ?";
 
 		try {
 			PreparedStatement pStatement = conexaoBD
@@ -127,6 +125,7 @@ public class RepositorioFornecedorJDBC implements IRepositorio<Fornecedor, Strin
 			pStatement.setString(1, entity.getNome());
 			pStatement.setString(2, entity.getCpf());
 			pStatement.setString(3, entity.getBanco());
+			pStatement.setString(4, entity.getCpf());
 			pStatement.executeUpdate();
 
 			pStatement.close();
@@ -152,7 +151,7 @@ public class RepositorioFornecedorJDBC implements IRepositorio<Fornecedor, Strin
 
 			while (rSet != null && rSet.next()) {
 
-				Fornecedor fornecedor = new Fornecedor();
+				Fornecedor fornecedor = new Fornecedor(null,null,null);
 				fornecedor.setNome(rSet.getString("nome"));
 				fornecedor.setCpf(rSet.getString("cpf"));
 				fornecedor.setBanco(rSet.getString("banco"));

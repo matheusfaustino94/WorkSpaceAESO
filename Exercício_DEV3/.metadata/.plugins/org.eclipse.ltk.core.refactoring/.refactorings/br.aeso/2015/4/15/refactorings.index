@@ -1,0 +1,26 @@
+1428708414955	Copy packages
+1428708437527	Rename package 'br.aeso.aula05.cliente'
+1428708856162	Delete element
+1428764931364	Copy compilation units
+1428764979263	Copy compilation units
+1428765023298	Copy compilation unit
+1428765116326	Copy compilation unit
+1428765229661	Rename package 'br.aeso.Dev1.Exceptions'
+1428765351899	Delete element
+1428765361919	Copy source folder
+1428765469624	Delete element
+1428765473151	Delete element
+1428765497812	Rename source folder 'br.aeso.aula05'
+1428765520515	Rename package 'br.aeso.aula05.cliente'
+1428765528432	Rename package 'br.aeso.aula05.Exceptions'
+1428765534740	Rename package 'br.aeso.aula05.fachada'
+1428765549822	Rename package 'br.aeso.aula05.fornecedor'
+1428765557684	Rename package 'br.aeso.aula05.util'
+1428765752618	Delete element
+1428767793852	Move compilation units
+1428767803382	Rename package 'br.aeso.projetoDev1.Exceptions'
+1428769444694	Rename type 'teste'
+1428769791798	Copy compilation units
+1428769812947	Rename type 'CarroInvalidoException'
+1428769821221	Rename type 'CarroJaCadastradoException'
+1428769827928	Rename type 'CarroNaoEncontradoException'
