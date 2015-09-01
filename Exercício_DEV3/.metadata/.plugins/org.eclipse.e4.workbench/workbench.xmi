@@ -135,12 +135,12 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_qJag0EzfEeW8RfMegqBvXQ" elementId="org.eclipse.ui.editorss" selectedElement="_qJag0UzfEeW8RfMegqBvXQ">
-      <children xsi:type="basic:PartStack" xmi:id="_qJag0UzfEeW8RfMegqBvXQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_0pX4kEzfEeW8RfMegqBvXQ">
+      <children xsi:type="basic:PartStack" xmi:id="_qJag0UzfEeW8RfMegqBvXQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_zPf0MEziEeW9rqXaRfcdnw">
         <tags>newtablook</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
-        <children xsi:type="basic:Part" xmi:id="_0pX4kEzfEeW8RfMegqBvXQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="RepositorioFornecedorJDBC.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
+        <children xsi:type="basic:Part" xmi:id="_zPf0MEziEeW9rqXaRfcdnw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="RepositorioFornecedorJDBC.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;RepositorioFornecedorJDBC.java&quot; partName=&quot;RepositorioFornecedorJDBC.java&quot; title=&quot;RepositorioFornecedorJDBC.java&quot; tooltip=&quot;br.aeso.ex01Maur&#xed;cio/br.aeso.ex01Maur&#xed;cio.exerc&#xed;cio/br/aeso/ex01Maur&#xed;cio/exerc&#xed;cio/repositorio/RepositorioFornecedorJDBC.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/br.aeso.ex01Maur&#xed;cio/br.aeso.ex01Maur&#xed;cio.exerc&#xed;cio/br/aeso/ex01Maur&#xed;cio/exerc&#xed;cio/repositorio/RepositorioFornecedorJDBC.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;70&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
@@ -245,7 +245,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_p60EIEzfEeW8RfMegqBvXQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_p6_qUEzfEeW8RfMegqBvXQ" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_o82AEEzfEeW8RfMegqBvXQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_wV80MEziEeW9rqXaRfcdnw" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_o82AEEzfEeW8RfMegqBvXQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_p60EIUzfEeW8RfMegqBvXQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -269,7 +269,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_p60rMEzfEeW8RfMegqBvXQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_p7uDEEzfEeW8RfMegqBvXQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_o8zj2UzfEeW8RfMegqBvXQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_wWUnoEziEeW9rqXaRfcdnw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_o8zj2UzfEeW8RfMegqBvXQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_p61SQEzfEeW8RfMegqBvXQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
