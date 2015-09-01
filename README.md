@@ -1,2 +1,8 @@
 # WorkSpaceAESO
-Aprendendo a usar o GitHub sincronizado com o Eclipse...
+Este repositório contém experiências vividas em sala de aula.
+Utilizei aqui:
+ + JAVA
+ + JDBC
+ + MODELOS RELACIONAIS (BANCO DE DADOS)
+ + SQL
+ 
