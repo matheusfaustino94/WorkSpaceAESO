@@ -5390,3 +5390,450 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-09-02 18:04:13.316 -----------------------------------------------
+eclipse.buildId=4.4.0.I20140606-1215
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.jdt.core 4 0 2015-09-02 18:05:26.917
+!MESSAGE Invalid ZIP archive: C:\Users\M\Downloads\mysql-connector-java-5.1.24-bin.jar
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-09-02 18:05:35.495
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-09-02 18:05:35.511
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Matheus'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-09-02 18:06:35.012 -----------------------------------------------
+eclipse.buildId=4.4.0.I20140606-1215
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-09-02 18:06:59.004
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-09-02 18:06:59.004
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Matheus'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-09-02 18:20:39.828 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-09-02 18:21:54.403
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Matheus'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-09-02 18:24:34.079 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-09-02 18:24:53.580
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Matheus'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-09-02 19:07:59.740 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-09-02 19:09:22.706
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\M'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 18 2015-09-02 19:11:11.650
+!MESSAGE Updating the index from remote failed. Version: 1.0.0.v20150617-0732
+!STACK 0
+org.apache.lucene.store.AlreadyClosedException: this Directory is closed
+	at org.apache.lucene.store.Directory.ensureOpen(Directory.java:288)
+	at org.apache.lucene.store.FSDirectory.listAll(FSDirectory.java:240)
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:641)
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:593)
+	at org.apache.lucene.index.SegmentInfos.read(SegmentInfos.java:359)
+	at org.apache.lucene.index.IndexReader.indexExists(IndexReader.java:1076)
+	at org.apache.lucene.index.IndexWriter.<init>(IndexWriter.java:1119)
+	at org.eclipse.epp.internal.logging.aeri.ui.log.ProblemsDatabaseService.replaceContent(ProblemsDatabaseService.java:173)
+	at org.eclipse.epp.internal.logging.aeri.ui.log.ProblemsDatabaseUpdateJob.run(ProblemsDatabaseUpdateJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2015-09-02 19:22:58.359 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-09-02 19:23:11.459
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\M'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-09-02 20:25:28.758 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-09-02 20:25:42.579
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\M'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.core 4 0 2015-09-02 20:58:15.700
+!MESSAGE An exception occurred during push on URI https://github.com/msfs94/WorkSpaceAESO.git: https://github.com/msfs94/WorkSpaceAESO.git: error occurred during unpacking on the remote end: index-pack abnormal exit
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/msfs94/WorkSpaceAESO.git: error occurred during unpacking on the remote end: index-pack abnormal exit
+	at org.eclipse.jgit.transport.BasePackPushConnection.readStatusReport(BasePackPushConnection.java:322)
+	at org.eclipse.jgit.transport.BasePackPushConnection.doPush(BasePackPushConnection.java:201)
+	at org.eclipse.jgit.transport.TransportHttp$SmartHttpPushConnection.doPush(TransportHttp.java:807)
+	at org.eclipse.jgit.transport.BasePackPushConnection.push(BasePackPushConnection.java:153)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:166)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1200)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:197)
+	at org.eclipse.egit.ui.internal.push.PushWizard$PushJob.run(PushWizard.java:297)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.egit.ui 4 0 2015-09-02 20:58:15.930
+!MESSAGE Can't connect to any repository: https://github.com/msfs94/WorkSpaceAESO.git (https://github.com/msfs94/WorkSpaceAESO.git: error occurred during unpacking on the remote end: index-pack abnormal exit)
+!SESSION 2015-09-02 20:58:36.965 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-09-02 20:58:49.706
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\M'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-09-02 21:00:03.033 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-09-02 21:00:19.927
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\M'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 4 0 2015-09-02 21:04:17.755
+!MESSAGE Error occurred computing diffs
+!STACK 0
+org.eclipse.jgit.errors.MissingObjectException: Missing unknown 0000000000000000000000000000000000000000
+	at org.eclipse.jgit.internal.storage.file.WindowCursor.open(WindowCursor.java:145)
+	at org.eclipse.jgit.lib.ObjectReader.open(ObjectReader.java:226)
+	at org.eclipse.jgit.revwalk.RevWalk.parseAny(RevWalk.java:859)
+	at org.eclipse.jgit.revwalk.RevWalk.parseTree(RevWalk.java:799)
+	at org.eclipse.jgit.lib.IndexDiff.<init>(IndexDiff.java:314)
+	at org.eclipse.jgit.lib.IndexDiff.diff(IndexDiff.java:551)
+	at org.eclipse.egit.ui.internal.commit.CommitUI.buildIndexHeadDiffList(CommitUI.java:286)
+	at org.eclipse.egit.ui.internal.commit.CommitUI.access$0(CommitUI.java:267)
+	at org.eclipse.egit.ui.internal.commit.CommitUI$1.run(CommitUI.java:130)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SESSION 2015-09-02 21:04:27.099 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-09-02 21:04:44.963
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\M'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 4 0 2015-09-02 21:05:16.336
+!MESSAGE The current branch is not configured for pull
+!STACK 0
+org.eclipse.jgit.api.errors.InvalidConfigurationException: No value for key remote.origin.url found in configuration
+	at org.eclipse.jgit.api.PullCommand.call(PullCommand.java:249)
+	at org.eclipse.egit.core.op.PullOperation$1.run(PullOperation.java:97)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.egit.core.op.PullOperation.execute(PullOperation.java:128)
+	at org.eclipse.egit.ui.internal.pull.PullOperationUI.execute(PullOperationUI.java:140)
+	at org.eclipse.egit.ui.internal.pull.PullOperationUI$1.runInWorkspace(PullOperationUI.java:115)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.egit.ui 4 0 2015-09-02 21:25:07.124
+!MESSAGE Error occurred computing diffs
+!STACK 0
+org.eclipse.jgit.errors.MissingObjectException: Missing unknown 0000000000000000000000000000000000000000
+	at org.eclipse.jgit.internal.storage.file.WindowCursor.open(WindowCursor.java:145)
+	at org.eclipse.jgit.lib.ObjectReader.open(ObjectReader.java:226)
+	at org.eclipse.jgit.revwalk.RevWalk.parseAny(RevWalk.java:859)
+	at org.eclipse.jgit.revwalk.RevWalk.parseTree(RevWalk.java:799)
+	at org.eclipse.jgit.lib.IndexDiff.<init>(IndexDiff.java:314)
+	at org.eclipse.jgit.lib.IndexDiff.diff(IndexDiff.java:551)
+	at org.eclipse.egit.ui.internal.commit.CommitUI.buildIndexHeadDiffList(CommitUI.java:286)
+	at org.eclipse.egit.ui.internal.commit.CommitUI.access$0(CommitUI.java:267)
+	at org.eclipse.egit.ui.internal.commit.CommitUI$1.run(CommitUI.java:130)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SESSION 2015-09-02 21:26:10.334 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-09-02 21:26:24.556
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\M'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-09-02 21:40:15.489 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-09-02 21:40:31.954
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\M'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 4 0 2015-09-02 21:41:31.836
+!MESSAGE Failed to initialize Git team provider.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while moving resources.
+	at org.eclipse.core.internal.resources.Project.move(Project.java:976)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.moveProject(MoveProjectOperation.java:142)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.doExecute(MoveProjectOperation.java:117)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation$1.run(AbstractWorkspaceOperation.java:199)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.execute(AbstractWorkspaceOperation.java:196)
+	at org.eclipse.egit.ui.internal.sharing.SharingWizard$1.run(SharingWizard.java:100)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Could not move '/br.aeso.ex01Maurício'.
+org.eclipse.core.runtime.CoreException: Could not move: A:\Documentos\Matheus\Acadêmico\Git\br.aeso.ex01Maurício.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:49)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:417)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:371)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:802)
+	at org.eclipse.core.internal.resources.ResourceTree.moveProjectContent(ResourceTree.java:763)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1086)
+	at org.eclipse.core.internal.resources.Project.move(Project.java:969)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.moveProject(MoveProjectOperation.java:142)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.doExecute(MoveProjectOperation.java:117)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation$1.run(AbstractWorkspaceOperation.java:199)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.execute(AbstractWorkspaceOperation.java:196)
+	at org.eclipse.egit.ui.internal.sharing.SharingWizard$1.run(SharingWizard.java:100)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: org.eclipse.core.runtime.CoreException: File not found: A:\Documentos\Matheus\Acadêmico\Git\br.aeso.ex01Maurício.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:49)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:391)
+	at org.eclipse.core.filesystem.provider.FileStore.copyFile(FileStore.java:221)
+	at org.eclipse.core.filesystem.provider.FileStore.copy(FileStore.java:144)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.copy(LocalFile.java:120)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:412)
+	... 12 more
+Caused by: java.io.FileNotFoundException: A:\Documentos\Matheus\Acadêmico\Git\br.aeso.ex01Maurício (O sistema não pode encontrar o caminho especificado)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:382)
+	... 16 more
+!SUBENTRY 1 org.eclipse.core.resources 1 4 2015-09-02 21:41:31.838
+!MESSAGE Problems encountered while moving resources.
+!SUBENTRY 2 org.eclipse.core.resources 1 4 2015-09-02 21:41:31.838
+!MESSAGE Could not move '/br.aeso.ex01Maurício'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not move: A:\Documentos\Matheus\Acadêmico\Git\br.aeso.ex01Maurício.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:49)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:417)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:371)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:802)
+	at org.eclipse.core.internal.resources.ResourceTree.moveProjectContent(ResourceTree.java:763)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1086)
+	at org.eclipse.core.internal.resources.Project.move(Project.java:969)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.moveProject(MoveProjectOperation.java:142)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.doExecute(MoveProjectOperation.java:117)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation$1.run(AbstractWorkspaceOperation.java:199)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.execute(AbstractWorkspaceOperation.java:196)
+	at org.eclipse.egit.ui.internal.sharing.SharingWizard$1.run(SharingWizard.java:100)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: org.eclipse.core.runtime.CoreException: File not found: A:\Documentos\Matheus\Acadêmico\Git\br.aeso.ex01Maurício.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:49)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:391)
+	at org.eclipse.core.filesystem.provider.FileStore.copyFile(FileStore.java:221)
+	at org.eclipse.core.filesystem.provider.FileStore.copy(FileStore.java:144)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.copy(LocalFile.java:120)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:412)
+	... 12 more
+Caused by: java.io.FileNotFoundException: A:\Documentos\Matheus\Acadêmico\Git\br.aeso.ex01Maurício (O sistema não pode encontrar o caminho especificado)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:382)
+	... 16 more
+!SUBENTRY 3 org.eclipse.core.filesystem 4 272 2015-09-02 21:41:31.838
+!MESSAGE Could not move: A:\Documentos\Matheus\Acadêmico\Git\br.aeso.ex01Maurício.
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: A:\Documentos\Matheus\Acadêmico\Git\br.aeso.ex01Maurício.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:49)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:391)
+	at org.eclipse.core.filesystem.provider.FileStore.copyFile(FileStore.java:221)
+	at org.eclipse.core.filesystem.provider.FileStore.copy(FileStore.java:144)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.copy(LocalFile.java:120)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:412)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:371)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:802)
+	at org.eclipse.core.internal.resources.ResourceTree.moveProjectContent(ResourceTree.java:763)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1086)
+	at org.eclipse.core.internal.resources.Project.move(Project.java:969)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.moveProject(MoveProjectOperation.java:142)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.doExecute(MoveProjectOperation.java:117)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation$1.run(AbstractWorkspaceOperation.java:199)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.execute(AbstractWorkspaceOperation.java:196)
+	at org.eclipse.egit.ui.internal.sharing.SharingWizard$1.run(SharingWizard.java:100)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: java.io.FileNotFoundException: A:\Documentos\Matheus\Acadêmico\Git\br.aeso.ex01Maurício (O sistema não pode encontrar o caminho especificado)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:382)
+	... 16 more
+!SUBENTRY 4 org.eclipse.core.filesystem 4 271 2015-09-02 21:41:31.838
+!MESSAGE File not found: A:\Documentos\Matheus\Acadêmico\Git\br.aeso.ex01Maurício.
+!STACK 0
+java.io.FileNotFoundException: A:\Documentos\Matheus\Acadêmico\Git\br.aeso.ex01Maurício (O sistema não pode encontrar o caminho especificado)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:382)
+	at org.eclipse.core.filesystem.provider.FileStore.copyFile(FileStore.java:221)
+	at org.eclipse.core.filesystem.provider.FileStore.copy(FileStore.java:144)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.copy(LocalFile.java:120)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:412)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:371)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.move(FileSystemResourceManager.java:802)
+	at org.eclipse.core.internal.resources.ResourceTree.moveProjectContent(ResourceTree.java:763)
+	at org.eclipse.core.internal.resources.ResourceTree.standardMoveProject(ResourceTree.java:1086)
+	at org.eclipse.core.internal.resources.Project.move(Project.java:969)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.moveProject(MoveProjectOperation.java:142)
+	at org.eclipse.ui.ide.undo.MoveProjectOperation.doExecute(MoveProjectOperation.java:117)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation$1.run(AbstractWorkspaceOperation.java:199)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ui.ide.undo.AbstractWorkspaceOperation.execute(AbstractWorkspaceOperation.java:196)
+	at org.eclipse.egit.ui.internal.sharing.SharingWizard$1.run(SharingWizard.java:100)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SESSION 2015-09-02 21:41:46.258 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-09-02 21:41:59.296
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\M'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-09-02 21:42:12.879 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-09-02 21:42:45.051
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\M'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-09-02 21:43:48.115 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-09-02 21:44:05.102
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\M'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-09-04 14:33:39.027 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-09-04 14:34:18.651
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\M'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

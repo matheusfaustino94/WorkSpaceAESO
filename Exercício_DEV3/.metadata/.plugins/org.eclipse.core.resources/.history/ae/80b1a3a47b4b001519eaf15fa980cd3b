@@ -1,8 +1,0 @@
-package br.aeso.ex01Maurício.exercício.modelo;
-
-public abstract class ProjectID{
-	
-	public abstract Integer getID();
-	public abstract void setID(Integer id);
-
-}
