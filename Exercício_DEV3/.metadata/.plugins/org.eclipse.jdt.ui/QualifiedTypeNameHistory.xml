@@ -52,12 +52,12 @@
 <fullyQualifiedTypeName name="java.util.concurrent.locks.StampedLock"/>
 <fullyQualifiedTypeName name="java.sql.Statement"/>
 <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
-<fullyQualifiedTypeName name="br.aeso.ex01Maurício.exercício.repositorio.IRepositorio"/>
-<fullyQualifiedTypeName name="br.aeso.ex01Maurício.exercício.repositorio.RepositorioEnderecoJDBC"/>
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
 <fullyQualifiedTypeName name="br.aeso.ex01Maurício.exercício.modelo.Fornecedor"/>
 <fullyQualifiedTypeName name="br.aeso.ex01Maurício.exercício.modelo.Endereço"/>
+<fullyQualifiedTypeName name="br.aeso.ex01Maurício.exercício.repositorio.IRepositorio"/>
+<fullyQualifiedTypeName name="br.aeso.ex01Maurício.exercício.repositorio.RepositorioEnderecoJDBC"/>
 </qualifiedTypeNameHistroy>

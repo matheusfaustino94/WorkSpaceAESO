@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import br.aeso.ex01Maurício.exercício.exceptions.projetoException;
 import br.aeso.ex01Maurício.exercício.modelo.Endereço;
+import br.aeso.ex01Maurício.exercício.repositorio.GenericRepositorioList;
 import br.aeso.ex01Maurício.exercício.repositorio.IRepositorio;
 import br.aeso.ex01Maurício.exercício.repositorio.RepositorioEnderecoJDBC;
 
