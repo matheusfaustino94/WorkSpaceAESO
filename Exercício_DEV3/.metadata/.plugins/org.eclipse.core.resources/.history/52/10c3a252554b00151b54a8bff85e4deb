@@ -1,0 +1,95 @@
+package br.aeso.ex01Maurício.exercício.repositorio;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+import br.aeso.ex01Maurício.exercício.exceptions.projetoException;
+import br.aeso.ex01Maurício.exercício.modelo.Fornecedor;
+import br.aeso.ex01Maurício.exercício.util.JDBCConnection;
+
+public class RepositorioFornecedorJDBC implements IRepositorio<Fornecedor> {
+
+	private Connection conexaoBD;
+
+	public RepositorioFornecedorJDBC() {
+		conexaoBD = JDBCConnection.getConnection();
+	}
+
+	@Override
+	public void cadastrar(Fornecedor entity) throws projetoException {
+
+		String sqlInsert = "insert into projeto01.fornecedor (nome, cpf, banco) values (?,?,?)";
+
+		try {
+			
+			if (this.existe(entity.getCpf())) {
+				throw new projetoException("Fornecedor já existe!");
+			}
+			
+			PreparedStatement pStatement = conexaoBD.prepareStatement(sqlInsert);
+			pStatement.setString(1, entity.getNome());
+			pStatement.setString(2, entity.getCpf());
+			pStatement.setString(3, entity.getBanco());
+			pStatement.execute();
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				conexaoBD.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+
+	}
+
+	@Override
+	public Fornecedor procurar(Integer id) throws projetoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean remover(Integer id) throws projetoException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void atualizar(Fornecedor entity) throws projetoException {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public ArrayList<Fornecedor> listarEntities() throws projetoException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	private boolean existe(String cpf) throws SQLException {
+		PreparedStatement prepStatment = null;
+		ResultSet consultaBD = null;
+		String id_fornecedor = null;
+
+		String sql = "select fornecedor_id from projeto01.fornecedor where cpf = '"
+				+ cpf + "'";
+
+		prepStatment = conexaoBD.prepareStatement(sql);
+		consultaBD = prepStatment.executeQuery();
+
+		while (consultaBD.next()) {
+			id_fornecedor = consultaBD.getString(1);
+		}
+
+		if (id_fornecedor.equals(null)) {
+			return false;
+		}
+		return true;
+	}
+
+}
