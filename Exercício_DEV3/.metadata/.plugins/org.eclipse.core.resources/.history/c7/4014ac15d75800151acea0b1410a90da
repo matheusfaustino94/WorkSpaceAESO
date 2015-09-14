@@ -43,9 +43,11 @@ public class ControladorEndereco {
 
 	public Endereço procurarEntities(String cpf) throws projetoException {
 		Fornecedor f = repositorioFornecedor.procurar(cpf);
-		Integer id = null;
+		Integer id;
 		if (f != null) {
 			id = f.getID();
+		} else {
+			throw new projetoException("Endereço não existe!");
 		}
 		return repositorioEndereco.procurar(id);
 	}

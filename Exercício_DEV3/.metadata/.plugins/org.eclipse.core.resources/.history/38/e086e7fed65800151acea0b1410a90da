@@ -13,6 +13,7 @@ public class ControladorEndereco {
 
 	IRepositorio<Endereço, Integer> repositorioEndereco;
 	IRepositorio<Fornecedor, String> repositorioFornecedor;
+	
 
 	public ControladorEndereco() {
 		repositorioEndereco = new RepositorioEnderecoJDBC();
@@ -43,9 +44,11 @@ public class ControladorEndereco {
 
 	public Endereço procurarEntities(String cpf) throws projetoException {
 		Fornecedor f = repositorioFornecedor.procurar(cpf);
-		Integer id = null;
-		if (f != null) {
-			id = f.getID();
+		Integer id;
+		if(f != null){
+			id = f.getID();	
+		} else {
+			throw new projetoException("Endereço não existe!");
 		}
 		return repositorioEndereco.procurar(id);
 	}

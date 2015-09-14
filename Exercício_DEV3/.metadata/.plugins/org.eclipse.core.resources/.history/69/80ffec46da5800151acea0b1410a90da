@@ -60,21 +60,11 @@ public class ControladorFornecedor implements IControlador<Fornecedor> {
 	}
 
 	public Fornecedor procurarEntities(String cpf) throws projetoException {
-		Fornecedor fornecedor = repositorioFornecedor.procurar(cpf);
-		fornecedor.setEndereço(controladorEndereco.procurarEntities(cpf));
-		return fornecedor;
+		return repositorioFornecedor.procurar(cpf);
 	}
 
 	public ArrayList<Fornecedor> listarEntities() throws projetoException {
-		ArrayList<Fornecedor> fornecedores = repositorioFornecedor.listarEntities();
-		if (fornecedores.isEmpty()) {
-			return null;
-		} else {
-			for (Fornecedor f : fornecedores) {
-				f.setEndereço(controladorEndereco.procurarEntities(f.getCpf()));
-			}
-		}
-		return fornecedores;
+		return repositorioFornecedor.listarEntities();
 	}
 
 	/*

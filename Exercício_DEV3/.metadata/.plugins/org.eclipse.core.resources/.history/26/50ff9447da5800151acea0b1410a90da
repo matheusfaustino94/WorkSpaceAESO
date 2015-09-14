@@ -67,10 +67,10 @@ public class ControladorFornecedor implements IControlador<Fornecedor> {
 
 	public ArrayList<Fornecedor> listarEntities() throws projetoException {
 		ArrayList<Fornecedor> fornecedores = repositorioFornecedor.listarEntities();
-		if (fornecedores.isEmpty()) {
+		if(fornecedores.isEmpty()){
 			return null;
 		} else {
-			for (Fornecedor f : fornecedores) {
+			for (Fornecedor f : fornecedores){
 				f.setEndereço(controladorEndereco.procurarEntities(f.getCpf()));
 			}
 		}

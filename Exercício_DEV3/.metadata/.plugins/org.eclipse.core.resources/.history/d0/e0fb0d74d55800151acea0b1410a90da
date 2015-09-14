@@ -3,6 +3,7 @@ package br.aeso.ex01Maurício.exercício.controlador;
 import java.util.ArrayList;
 
 import br.aeso.ex01Maurício.exercício.exceptions.projetoException;
+import br.aeso.ex01Maurício.exercício.modelo.Endereço;
 import br.aeso.ex01Maurício.exercício.modelo.Fornecedor;
 import br.aeso.ex01Maurício.exercício.repositorio.IRepositorio;
 import br.aeso.ex01Maurício.exercício.repositorio.RepositorioFornecedorJDBC;
@@ -53,28 +54,16 @@ public class ControladorFornecedor implements IControlador<Fornecedor> {
 		Fornecedor f = procurarEntities(cpf);
 		if (f != null) {
 			controladorEndereco.removerEntities(f.getID());
-		} else {
-			throw new projetoException("Fornecedor não encontrado!");
 		}
 		return repositorioFornecedor.remover(cpf);
 	}
 
 	public Fornecedor procurarEntities(String cpf) throws projetoException {
-		Fornecedor fornecedor = repositorioFornecedor.procurar(cpf);
-		fornecedor.setEndereço(controladorEndereco.procurarEntities(cpf));
-		return fornecedor;
+		return repositorioFornecedor.procurar(cpf);
 	}
 
 	public ArrayList<Fornecedor> listarEntities() throws projetoException {
-		ArrayList<Fornecedor> fornecedores = repositorioFornecedor.listarEntities();
-		if (fornecedores.isEmpty()) {
-			return null;
-		} else {
-			for (Fornecedor f : fornecedores) {
-				f.setEndereço(controladorEndereco.procurarEntities(f.getCpf()));
-			}
-		}
-		return fornecedores;
+		return repositorioFornecedor.listarEntities();
 	}
 
 	/*

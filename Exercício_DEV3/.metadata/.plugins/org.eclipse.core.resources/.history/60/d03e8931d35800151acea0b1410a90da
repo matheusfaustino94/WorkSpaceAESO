@@ -92,15 +92,15 @@ public class RepositorioEnderecoJDBC implements IRepositorio<Endereço, Integer> 
 	}
 
 	@Override
-	public boolean remover(Integer fornecedor_id) throws projetoException {
+	public boolean remover(Integer endereco_id) throws projetoException {
 
-		String sqlRemove = "delete from projeto01.endereco where fornecedor_id = ?";
+		String sqlRemove = "delete from projeto01.endereco where endereco_id = ?";
 
 		int linhasAfetadas = 0;
 
 		try {
 			PreparedStatement pStatement = conexaoBD.prepareStatement(sqlRemove);
-			pStatement.setInt(1, fornecedor_id);
+			pStatement.setInt(1, endereco_id);
 			linhasAfetadas = pStatement.executeUpdate();
 
 			conexaoBD.close();

@@ -4,21 +4,18 @@ import java.util.ArrayList;
 
 import br.aeso.ex01Maurício.exercício.exceptions.projetoException;
 import br.aeso.ex01Maurício.exercício.modelo.Endereço;
-import br.aeso.ex01Maurício.exercício.modelo.Fornecedor;
 import br.aeso.ex01Maurício.exercício.repositorio.IRepositorio;
 import br.aeso.ex01Maurício.exercício.repositorio.RepositorioEnderecoJDBC;
-import br.aeso.ex01Maurício.exercício.repositorio.RepositorioFornecedorJDBC;
 
-public class ControladorEndereco {
+public class ControladorEndereco implements IControlador<Endereço> {
 
 	IRepositorio<Endereço, Integer> repositorioEndereco;
-	IRepositorio<Fornecedor, String> repositorioFornecedor;
 
 	public ControladorEndereco() {
 		repositorioEndereco = new RepositorioEnderecoJDBC();
-		repositorioFornecedor = new RepositorioFornecedorJDBC();
 	}
 
+	@Override
 	public void cadastrarEntities(Endereço endereco) throws projetoException {
 		if (endereco.equals(null) || endereco.getRua().equals("") || endereco.getBairro().equals("")
 				|| endereco.getCep().equals("") || endereco.getCidade().equals("")
@@ -28,6 +25,7 @@ public class ControladorEndereco {
 			repositorioEndereco.cadastrar(endereco);
 	}
 
+	@Override
 	public void atualizarEntities(Endereço endereco) throws projetoException {
 		if (endereco.equals(null) || endereco.getRua().equals("") || endereco.getBairro().equals("")
 				|| endereco.getCep().equals("") || endereco.getCidade().equals("")
@@ -37,21 +35,35 @@ public class ControladorEndereco {
 			repositorioEndereco.atualizar(endereco);
 	}
 
-	public boolean removerEntities(Integer id_fornecedor) throws projetoException {
-		return repositorioEndereco.remover(id_fornecedor);
+	@Override
+	public boolean removerEntities(String cpf) throws projetoException {
+		Integer id = procurarID(cpf);
+		return repositorioEndereco.remover(id);
 	}
 
+	@Override
 	public Endereço procurarEntities(String cpf) throws projetoException {
-		Fornecedor f = repositorioFornecedor.procurar(cpf);
-		Integer id = null;
-		if (f != null) {
-			id = f.getID();
-		}
+		Integer id = procurarID(cpf);
 		return repositorioEndereco.procurar(id);
 	}
 
+	@Override
 	public ArrayList<Endereço> listarEntities() throws projetoException {
 		return repositorioEndereco.listarEntities();
+	}
+
+	private Integer procurarID(String cpf) throws projetoException {
+		ArrayList<Endereço> enderecos = listarEntities();
+		if (enderecos.isEmpty()) {
+			return null;
+		} else {
+			for (Endereço e : enderecos) {
+				if (e.getFornecedor().getCpf().equals(cpf)) {
+					return e.getID();
+				}
+			}
+		}
+		return null;
 	}
 
 }

@@ -89,7 +89,7 @@ public class Endereço extends ProjectID {
 
 	@Override
 	public String toString() {
-		return "\nEndereço:" + "\nID:" + ID + "\nID_Fornecedor:"
+		return "Endereço:" + "\nID:" + ID + "\nID_Fornecedor:"
 				+ fornecedor.getID() + "\nRua:" + rua + "\nCidade: " + cidade
 				+ "\nBairro: " + bairro + "\nNumero :" + numero
 				+ "\nComplemento: " + complemento + "\nCEP: " + cep + "\n";
